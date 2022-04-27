@@ -29,6 +29,7 @@ body{
 .image img{
     width: 120%;
     height: 100%;
+    border-radius: 0.25rem 0 0 0.25rem;
 }
 
 .card-body{
@@ -93,4 +94,36 @@ body{
 .shareit img{
     width: 20px;
     cursor: pointer;
+}
+
+
+@media (max-width:768px) {
+    .card{
+        max-width: 90%;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .image{
+        max-width:inherit;
+    }
+    .image img{
+        width: 100%;
+        border-radius: 0px;
+    }
+    .info{
+        position: relative;
+        margin: -40px;
+        padding: 0 40px 20px;
+    }
+    .share{
+        position: static;
+    }
+    .shareit{
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        align-items: center;
+        border-radius: 0;
+    }
 }
