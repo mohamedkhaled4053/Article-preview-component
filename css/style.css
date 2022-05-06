@@ -36,7 +36,7 @@ body{
     padding: 40px;
 }
 
-.card h5{
+.card h1{
     color:  hsl(217, 19%, 35%);
     line-height: 1.4;
 }
