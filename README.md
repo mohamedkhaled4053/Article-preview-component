@@ -31,9 +31,8 @@ Users should be able to:
 - Solution URL: [Github repo](https://github.com/mohamedkhaled4053/Article-preview-component)
 - Live Site URL: [Github page](https://mohamedkhaled4053.github.io/Article-preview-component/)
 
-## My process
 
-### Built with
+## Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
